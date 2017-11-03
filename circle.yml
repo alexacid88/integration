@@ -1,0 +1,11 @@
+machine:
+ services:
+  - docker
+
+dependencies:
+ override:
+  - docker build -t nombre_imagen .
+
+test:
+ override:
+  - docker run nombre_imagen npm test
