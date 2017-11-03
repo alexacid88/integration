@@ -1,0 +1,16 @@
+{
+  "name": "integration",
+  "version": "0.0.5",
+  "description": "Ensayar funcionamiento de CricleCI",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "alexacid88",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mocha": "^4.0.1",
+    "supertest": "^3.0.0"
+  }
+}
